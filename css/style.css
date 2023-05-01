@@ -73,6 +73,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden !important;
 }
 body {
     background-color: var(--yellow);
@@ -139,4 +140,51 @@ h3 {
     font-family: 'louiseregular', sans-serif;
     color: var(--red);
     font-size: 17rem;
+}
+.seconda {
+    padding-top: 40vh;
+    padding-bottom: 50vh;
+}
+.nomi {
+    font-size: 6rem;
+    line-height: 0.9rem;
+}
+#and2 {
+    font-family: 'louiseregular', sans-serif;
+    color: var(--red);
+    font-size: 11rem;
+}
+.annuncio>h3 {
+    font-family: 'beatrice_displayXBdIt';
+    font-size: 2rem;
+    line-height: 0.9;
+}
+.annuncio {
+    position: absolute;
+    top: 140vh;
+    transform: translateY(-50%);
+}
+#ann {
+    font-size: 1.7rem;
+}
+#gioia {
+    font-size: 0.8rem;
+    margin-left: -6.5rem;
+    line-height: 0.1;
+}
+#gi {
+    font-size: 1.3rem;
+}
+#mat {
+    font-size: 2.3rem;
+    margin-left: 8rem;
+    line-height: 0.5;
+}
+.fiori {
+    margin-top: -10rem;
+}
+#fiori {
+    width: 30vh;
+    transform: rotate(30deg);
+    margin-left: 4rem;
 }
