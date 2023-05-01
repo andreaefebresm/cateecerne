@@ -1,0 +1,142 @@
+
+@font-face {
+    font-family: 'beatrice_displayXBdIt';
+    src: url('beatrice_display_extrabold_italic-webfont.woff2') format('woff2'),
+         url('beatrice_display_extrabold_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'beatriceextrabold';
+    src: url('beatrice_extrabold-webfont.woff2') format('woff2'),
+         url('beatrice_extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'louiseregular';
+    src: url('louise-regular-webfont.woff2') format('woff2'),
+         url('louise-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'media_sansblack';
+    src: url('mediasans-black-webfont.woff2') format('woff2'),
+         url('mediasans-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'media_sansbold';
+    src: url('mediasans-bold-webfont.woff2') format('woff2'),
+         url('mediasans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'media_sanslight';
+    src: url('mediasans-light-webfont.woff2') format('woff2'),
+         url('mediasans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'myriad_proregular';
+    src: url('myriadpro-regular-webfont.woff2') format('woff2'),
+         url('myriadpro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'stabil_condensedregular';
+    src: url('stabilcondensed-regular-webfont.woff2') format('woff2'),
+         url('stabilcondensed-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: var(--yellow);
+}
+  
+h1 {
+    font-family: 'Stabil Condensed', serif; 
+    font-size: 16rem;
+    color: var(--pink);
+}
+
+h2 a {
+    font-family: 'beatrice_displayXBdIt', serif; 
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    font-family: 'beatriceextrabold', serif; 
+    color: var(--red);
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: 'Media Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+:root {
+    --pink: #E6007E;
+    --yellow: #F7A600;
+    --red: #CE0613;
+}
+
+.yellow {
+    background-color: var(--yellow);
+    max-height: 100vh;
+    padding-top: 14vh;
+}
+
+.menu-sopra {
+    position: fixed;
+}
+
+.menu-sotto {
+    position: fixed;
+    bottom: 0;
+}
+.data {
+    position: absolute;
+    top: 50vh;
+    transform: translateY(-50%);
+}
+.data>h3 {
+    font-size: 3rem;
+    line-height: 0.9;
+}
+.titolo {
+    line-height: 0.4;
+}
+#and {
+    font-family: 'louiseregular', sans-serif;
+    color: var(--red);
+    font-size: 17rem;
+}
