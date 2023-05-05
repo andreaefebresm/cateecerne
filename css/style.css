@@ -13,7 +13,7 @@
     src: url('beatrice_extrabold-webfont.woff2') format('woff2'),
          url('beatrice_extrabold-webfont.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
+    font-style: italic;
 
 }
 
@@ -87,6 +87,21 @@ h1 {
     color: var(--pink);
 }
 
+.text-rosso {
+    font-family: 'media_sansbold', serif; 
+    font-size: 3rem;
+    color: var(--red);
+}
+
+.biancogrande {
+    font-family: 'beatrice_displayXBdIt', serif; 
+    font-size: 7rem !important;
+    color: white;
+}
+
+.small {
+    font-size: 2rem;
+}
 h2 a {
     font-family: 'beatrice_displayXBdIt', serif; 
     color: white;
@@ -189,4 +204,16 @@ h3 {
     width: 30vh;
     transform: rotate(30deg);
     margin-left: 4rem;
+}
+#chiesa {
+    width: 40vw;
+}
+
+.chiesa {
+    position: absolute;
+    top: 230vh;
+}
+.fioricer {
+    position: absolute;
+    top: 230vh;
 }
