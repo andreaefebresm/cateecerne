@@ -215,7 +215,11 @@ h3 {
     top: 230vh;
     z-index: 99;
 }
+#fioricer {
+    width: 15vw;
+    transform: rotate(-45deg);
+}
 .fioricer {
     position: absolute;
-    top: 230vh;
+    top: 240vh;
 }
