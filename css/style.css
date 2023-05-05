@@ -74,9 +74,11 @@
 html {
     scroll-behavior: smooth;
     overflow-x: hidden !important;
+    
 }
 body {
     background-color: var(--yellow);
+    cursor:url('http://upload.wikimedia.org/wikipedia/commons/d/de/POL_apple.jpg');
 }
   
 h1 {
