@@ -223,3 +223,27 @@ h3 {
     position: absolute;
     top: 240vh;
 }
+#ricevimento {
+    margin-top: 100vh;
+}
+#ric {
+    margin-left: 5rem;
+}
+#pozzo {
+    width: 40vw;
+}
+
+.pozzo {
+    position: absolute;
+    top: 330vh;
+    z-index: 99;
+}
+
+button {
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    color: var(--yellow);
+    font-family: 'media_sansblack';
+    padding: 0.8rem 2rem;
+}
