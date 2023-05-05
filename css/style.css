@@ -91,6 +91,7 @@ h1 {
     font-family: 'media_sansbold', serif; 
     font-size: 3rem;
     color: var(--red);
+    z-index: 100;
 }
 
 .biancogrande {
@@ -212,6 +213,7 @@ h3 {
 .chiesa {
     position: absolute;
     top: 230vh;
+    z-index: 99;
 }
 .fioricer {
     position: absolute;
