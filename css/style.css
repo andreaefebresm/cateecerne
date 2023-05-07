@@ -160,9 +160,18 @@ h3 {
     font-size: 17rem;
 }
 .seconda {
-    padding-top: 40vh;
-    padding-bottom: 50vh;
+  
 }
+
+#seconda {
+    background-image: url(../assets/fiori_ann.png);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 200%;
+    background-position-x: 60%;
+}
+
 .nomi {
     font-size: 6rem;
     line-height: 0.9rem;
@@ -179,8 +188,8 @@ h3 {
 }
 .annuncio {
     position: absolute;
-    top: 140vh;
-    transform: translateY(-50%);
+    top: 147%;
+    left: 0;
 }
 #ann {
     font-size: 1.7rem;
@@ -210,6 +219,20 @@ h3 {
     width: 40vw;
 }
 
+#cerimonia {
+   
+    background-image: url(../assets/chiesa.png);
+    background-size: 33%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 45%;
+    
+   
+}   
+
+.macro-cerimonia {
+    padding-top: 25vh;
+}
 .chiesa {
     position: absolute;
     top: 230vh;
@@ -224,8 +247,14 @@ h3 {
     top: 240vh;
 }
 #ricevimento {
-    margin-top: 60vh;
-    height: 100vh;
+
+  
+   background-image: url(../assets/pozzo.png);
+   background-size: 40%;
+   background-repeat: no-repeat;
+   background-position: center;
+   
+
 }
 #ric {
     margin-left: 5rem;
@@ -272,16 +301,27 @@ button {
     z-index: 99;
 }
 #rsvp {
-    margin-top: 60vh;
+    background-image: url(../assets/gatto.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: 170%;
+   
     background-color: var(--red);
     height: 100vh;
 }
 .form {
-    margin-top: 25vh;
+
     margin-left: 25vw;
 }
 #lista {
     height: 100vh;
+    background-image: url(../assets/fiori_listan.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
 }
 .iban {
     background-color: white;
@@ -289,6 +329,7 @@ button {
 }
 #regali {
     height: 100vh;
+    
 }
 
 .item {
@@ -301,8 +342,94 @@ button {
     height: 105vh;
 }
 #regali3 {
-    margin-top: 20vh;
+   margin-top: -20vh;
 }
 section {
     height: 100vh;
+}
+
+#tazzine {
+    background-image: url(../assets/tazzine.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#godmorgon {
+    background-image: url(../assets/godmorgon.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#comodini {
+    background-image: url(../assets/comodini.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#evedal {
+    background-image: url(../assets/evedal.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#water {
+    background-image: url(../assets/water.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#letto {
+    background-image: url(../assets/letto.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#oliera {
+    background-image: url(../assets/oliera.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#abatjours {
+    background-image: url(../assets/abatjours.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#macchina {
+    background-image: url(../assets/macchina.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.regali {
+    height: 35vh;
+}
+
+.tasti-regali {
+    position: relative;
+    top:65%;
+}
+
+.centraverticale {
+    position: relative;
+    top:15%;
+}
+
+
+#tavolo {
+    height: 30vh;
+    background-image: url(../assets/tavolo.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center; 
 }
