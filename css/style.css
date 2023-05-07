@@ -224,7 +224,8 @@ h3 {
     top: 240vh;
 }
 #ricevimento {
-    margin-top: 100vh;
+    margin-top: 60vh;
+    height: 100vh;
 }
 #ric {
     margin-left: 5rem;
@@ -246,4 +247,36 @@ button {
     color: var(--yellow);
     font-family: 'media_sansblack';
     padding: 0.8rem 2rem;
+}
+.testi {
+    padding-top: 38vh;
+}
+.smallwhite {
+    font-size: 3rem !important;
+    margin-bottom: -5rem;
+}
+.conf {
+    margin-bottom: -2rem;
+}
+#pres {
+    font-size: 10rem !important;
+}
+#gatto {
+    width: 60vw;
+}
+
+.gatto {
+    position: absolute;
+    top: 520vh;
+    left: 30vw;
+    z-index: 99;
+}
+#rsvp {
+    margin-top: 60vh;
+    background-color: var(--red);
+    height: 100vh;
+}
+.form {
+    margin-top: 25vh;
+    margin-left: 25vw;
 }
