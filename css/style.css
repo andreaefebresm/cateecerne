@@ -82,7 +82,7 @@ body {
 }
   
 h1 {
-    font-family: 'Stabil Condensed', serif; 
+    font-family: 'stabil_condensedregular', serif; 
     font-size: 16rem;
     color: var(--pink);
 }
@@ -159,9 +159,7 @@ h3 {
     color: var(--red);
     font-size: 17rem;
 }
-.seconda {
-  
-}
+
 
 #seconda {
     background-image: url(../assets/fiori_ann.png);
@@ -275,7 +273,7 @@ button {
     border-radius: 30px;
     color: var(--yellow);
     font-family: 'media_sansblack';
-    padding: 0.8rem 2rem;
+    padding: 0.8rem 1.5rem;
 }
 .testi {
     padding-top: 38vh;
@@ -332,6 +330,12 @@ button {
     
 }
 
+#regali3 {
+    margin-top: -20vh;
+    margin-bottom: 5vh;
+   
+}
+
 .item {
     width: 20vw;
 }
@@ -341,9 +345,7 @@ button {
 .balena {
     height: 105vh;
 }
-#regali3 {
-   margin-top: -20vh;
-}
+
 section {
     height: 100vh;
 }
@@ -420,10 +422,22 @@ section {
     top:65%;
 }
 
+.tasto-balena {
+   position: absolute;
+   top: 45%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
+
+button:hover {
+    background-color: var(--red);
+}
+
 .centraverticale {
     position: relative;
     top:15%;
 }
+
 
 
 #tavolo {
@@ -432,4 +446,43 @@ section {
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center; 
+}
+
+
+#frase {
+    background-color: black;
+    padding-top: 20vh;
+    padding-bottom: 40vh;
+}
+
+.fiori-finale {
+    position: relative;
+    top: 10%;
+    background-image: url(../assets/fiori.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#porta {
+    background-color: black;
+    background-image: url(../assets/door.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.regalinome {
+    color: var(--pink);
+}
+
+.frasi {
+    font-family: 'stabil_condensedregular', serif;
+    color: white;
+    font-size: 2.3rem;
+    line-height: 2.2rem;
+}
+.cit {
+    color: var(--yellow);
+    font-family: 'media_sansbold', sans-serif;
 }
