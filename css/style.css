@@ -280,3 +280,26 @@ button {
     margin-top: 25vh;
     margin-left: 25vw;
 }
+#lista {
+    height: 100vh;
+}
+.iban {
+    background-color: white;
+    border-radius: 30px;
+}
+#regali {
+    height: 100vh;
+}
+
+.item {
+    width: 20vw;
+}
+.tav {
+    width: 90vw;
+}
+.balena {
+    height: 105vh;
+}
+#regali3 {
+    margin-top: 20vh;
+}
