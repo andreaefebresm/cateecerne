@@ -78,7 +78,7 @@ html {
 
 body {
     background-color: var(--yellow);
-    cursor:url('http://upload.wikimedia.org/wikipedia/commons/d/de/POL_apple.jpg');
+    cursor:url('./assets/cursor.png');
 }
   
 h1 {
@@ -159,8 +159,9 @@ h3 {
     color: var(--red);
     font-size: 17rem;
 }
-
-
+.videoo {
+    padding-left: 0;
+}
 #seconda {
     background-image: url(../assets/fiori_ann.png);
     background-size: 65%;
@@ -554,5 +555,49 @@ section {
     html {
         scroll-behavior: smooth;
         overflow-x: hidden !important;
+    }
+    h1 {
+        font-family: 'stabil_condensedregular', serif; 
+        font-size: 8rem;
+        color: var(--pink);
+    }
+    
+    .text-rosso {
+        font-family: 'media_sansbold', serif; 
+        font-size: 2rem;
+        color: var(--red);
+        z-index: 100;
+    }
+    
+    .biancogrande {
+        font-family: 'beatrice_displayXBdIt', serif; 
+        font-size: 5rem !important;
+        color: white;
+    }
+    
+    .small {
+        font-size: 1.5rem;
+    }
+    h2 a {
+        font-family: 'beatrice_displayXBdIt', serif; 
+        color: white;
+        font-size: 1.3rem;
+        text-decoration: none;
+    }
+    
+    h2 a:hover {
+        font-family: 'beatriceextrabold', serif; 
+        color: var(--red);
+        font-size: 1.3rem;
+    }
+    
+    h3 {
+        font-family: 'Media Sans', sans-serif;
+        font-weight: 700;
+        color: white;
+    }
+    .nomi {
+        font-size: 5rem;
+        line-height: 0.9rem;
     }
 }
