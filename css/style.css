@@ -430,7 +430,7 @@ section {
    transform: translate(-50%,-50%);
 }
 
-.tasti-regali:hover, .tasto-balena:hover {
+.tasti-regali:hover, .tasto-balena:hover, button:hover {
     background-color: var(--pink);
 }
 
