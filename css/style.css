@@ -522,10 +522,6 @@ section {
     z-index: -1;
 }
 
-.container-fluid {
-    padding-left:0;
-}
-
 #oppure {
     font-family: 'beatrice_displayXBdIt';
     color: var(--pink);
