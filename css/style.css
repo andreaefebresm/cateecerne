@@ -539,3 +539,17 @@ section {
 #iban2 {
     margin-bottom: 1rem;
 }
+.list {
+    line-height: 0.6;
+}
+#lista {
+    padding-top: 17vh;
+}
+#list1 {
+    font-size: 5rem !important;
+    margin-left: 20vw;
+    margin-top: 10vh;
+}
+.listanoz {
+    margin-top: 12vh;
+}
