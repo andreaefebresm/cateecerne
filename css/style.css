@@ -520,8 +520,22 @@ section {
     top: 0;
     bottom: 0;
     z-index: -1;
-  }
+}
 
-  .container-fluid {
+.container-fluid {
     padding-left:0;
-  }
+}
+
+#oppure {
+    font-family: 'beatrice_displayXBdIt';
+    color: var(--pink);
+    font-size: 1.8rem;
+    line-height: 2rem;
+}
+#freccia {
+    font-family: 'beatriceextrabold';
+    font-size: 3rem;
+}
+#iban2 {
+    margin-bottom: 1rem;
+}
