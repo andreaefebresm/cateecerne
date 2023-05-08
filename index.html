@@ -62,7 +62,14 @@
     </header>
         <main>
             <!--PRIMA SCHERMATA-->
-            <section class="container-fluid yellow">
+
+            <section class="container-fluid">
+                <video id="background-video" autoplay loop muted>
+                    <source src="./assets/video.m4v" type="video/mp4">
+                  </video>
+            </section>
+
+            <!-- <section class="container-fluid yellow">
                     <div class="row">
                             <div class="col-lg-12">
                                 <h1 class="text-center titolo">
@@ -97,7 +104,7 @@
                             </h1>
                         </div>
                 </div>
-            </section>
+            </section> -->
              <!--Seconda SCHERMATA-->
              <section class="container-fluid seconda d-flex align-items-center justify-content-center" id="seconda">
                 <div class="macro">
@@ -302,12 +309,10 @@
                     <div class="row">
                         <div class="pb-5 row">
                             <div class="col-lg-7 iban" id="iban1">
-                                <div class="row">
-                                    <div class=>
+                                <div class="row">   
                                         <h4 class="desideri">
                                             Se desideri aiutarci a costruire la nostra <span class="des-div">casa</span> manda un bonifico con: 
                                         </h4>
-                                    </div>
                                 </div>
                                 <div class="row rosa">
                                     <div class="col-lg-2">
@@ -347,8 +352,8 @@
                                 </div>
                             </div>
                             <div class="col-lg-4 listanoz">
-                              <p class="text-end biancogrande list">lista</p>
-                              <p class="biancogrande list">nozze</p>
+                              <span class="text-end biancogrande list">lista</span>
+                              <span class="biancogrande list">nozze</p>
                             </div>
                         </div>
                         <div class="row">
