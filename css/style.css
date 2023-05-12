@@ -578,7 +578,7 @@ section {
     }
 
     .annuncio {
-        top:115%;
+        top:135%;
     }
 
     html {
@@ -716,12 +716,16 @@ section {
 }
 
 #regali3 {
-    margin-top: 10rem;
+    margin-top: 30rem;
     margin-bottom: 15rem;
 }
 
 #porta {
     background-size: 70%;
+}
+
+#tavolo {
+    margin-top: 15rem;
 }
 
 }
