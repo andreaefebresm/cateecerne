@@ -646,46 +646,49 @@ section {
         top: 40%;
     }
 
+.regali {
+    height: auto;
+}
 
 #tazzine {
-   margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 #godmorgon {
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 #comodini {
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 #evedal {
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 #water {
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 #letto {
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 #oliera {
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 #abatjours {
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 #macchina {
-    margin-top: 5rem;
+    margin-top: 7rem;
 }
 
 #regali3 {
-    margin-top: 0;
-    margin-bottom: 10rem;
+    margin-top: 10rem;
+    margin-bottom: 15rem;
 }
 
 #porta {
