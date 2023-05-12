@@ -71,6 +71,14 @@
 
 }
 
+.inizioMob {
+    display: none;
+}
+
+.inizioDesk {
+    display: initial;
+}
+
 html {
     scroll-behavior: smooth;
     overflow-x: hidden !important;
@@ -552,6 +560,27 @@ section {
 }
 
 @media only screen and (max-width: 600px) {
+
+    .inizioMob {
+        display: initial;
+    }
+    
+    .inizioDesk {
+        display: none;
+    }
+
+    .data {
+        top:40vh;
+    }
+
+    .catei {
+        margin-top: 10vh;
+    }
+
+    .annuncio {
+        top:115%;
+    }
+
     html {
         scroll-behavior: smooth;
         overflow-x: hidden !important;
