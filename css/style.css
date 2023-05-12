@@ -601,3 +601,95 @@ section {
         line-height: 0.9rem;
     }
 }
+
+@media only screen and (max-width: 600px) {
+
+    .nomi {
+        font-size: 3rem;
+    }
+
+    .biancogrande {
+        font-size: 3rem !important;
+    }
+
+    #ric {
+        margin-left:0;
+        text-align: center;
+    }
+
+    .conf {
+        margin-bottom: -1rem;
+        text-align: start !important;
+    }
+
+    .smallwhite {
+        margin-bottom: -1rem;
+    }
+
+    #pres {
+        font-size: 5rem !important;
+    }
+
+    #iban1 {
+        margin-left:1rem;
+    }
+
+    .rosa2 {
+        margin-left: 0;
+    }
+
+    .listanoz {
+        display: none;
+    }
+
+    .centraverticale {
+        top: 40%;
+    }
+
+
+#tazzine {
+   margin-top: 5rem;
+}
+
+#godmorgon {
+    margin-top: 5rem;
+}
+
+#comodini {
+    margin-top: 5rem;
+}
+
+#evedal {
+    margin-top: 5rem;
+}
+
+#water {
+    margin-top: 5rem;
+}
+
+#letto {
+    margin-top: 5rem;
+}
+
+#oliera {
+    margin-top: 5rem;
+}
+
+#abatjours {
+    margin-top: 5rem;
+}
+
+#macchina {
+    margin-top: 5rem;
+}
+
+#regali3 {
+    margin-top: 0;
+    margin-bottom: 10rem;
+}
+
+#porta {
+    background-size: 70%;
+}
+
+}
