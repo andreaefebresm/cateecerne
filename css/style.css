@@ -7,6 +7,15 @@
 }
 
 @font-face {
+    font-family: 'Beatrice';
+    src: url('Beatrice-ExtraBold.woff2') format('woff2'),
+        url('Beatrice-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
     font-family: 'beatriceextrabold';
     src: url('beatrice_extrabold-webfont.woff2') format('woff2'),
          url('beatrice_extrabold-webfont.woff') format('woff');
@@ -117,7 +126,7 @@ h2 a {
 }
 
 h2 a:hover {
-    font-family: 'beatrice_displayXBdIt', serif; 
+    font-family: 'Beatrice', serif; 
     color: var(--red);
     font-size: 1.5rem;
 }
