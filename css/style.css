@@ -4,7 +4,6 @@
          url('beatrice_display_extrabold_italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -12,8 +11,6 @@
     src: url('beatrice_extrabold-webfont.woff2') format('woff2'),
          url('beatrice_extrabold-webfont.woff') format('woff');
     font-weight: normal;
-    font-style: italic;
-
 }
 
 @font-face {
@@ -467,7 +464,7 @@ section {
     margin-left: 6rem;
 }
 .des-div {
-    font-family: 'beatriceextrabold', serif !important;
+    font-family: 'beatriceextrabold' !important;
     font-size: 1.8rem;
 }
 #tavolo {
@@ -628,13 +625,6 @@ section {
         font-size: 1.3rem;
         text-decoration: none;
     }
-    
-    h2 a:hover {
-        font-family: 'beatriceextrabold', serif !important; 
-        color: var(--red);
-        font-size: 1.3rem;
-    }
-    
     h3 {
         font-family: 'media_sansbold', sans-serif;
         font-weight: 700;
