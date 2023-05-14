@@ -424,7 +424,7 @@ section {
 }
 
 .regali {
-    height: 35vh;
+    height: 100vh;
 }
 
 .tasti-regali {
@@ -563,8 +563,22 @@ section {
     justify-content: flex-end;
 }
 
-@media only screen and (max-width: 600px) {
 
+@media only screen and (max-width: 600px) {
+    #lista {
+        padding-top: 5vh;
+    }
+    #iban2 {
+        margin-left: 1.1rem;
+    }
+    .rosa {
+        margin-left: 0;
+        padding-left: 0;
+    }
+    .rosalista {
+        padding-left: 1.4rem;
+    }
+    }
     .inizioMob {
         display: initial;
     }
@@ -630,12 +644,8 @@ section {
         color: white;
     }
     .nomi {
-        font-size: 5rem;
         line-height: 0.9rem;
     }
-}
-
-@media only screen and (max-width: 600px) {
 
     .nomi {
         font-size: 3rem;
@@ -679,43 +689,42 @@ section {
         top: 40%;
     }
 
-.regali {
-    height: auto;
-}
+
 
 #tazzine {
     margin-top: 7rem;
-   
+   height: 40vh;
     background-size: 50%;
 }
 
 #godmorgon {
     margin-top: 7rem;
     background-size: 50%;
+    height: 40vh;
    
 }
 
 #comodini {
     margin-top: 7rem;
-   
+    height: 40vh;
     background-size: 50%;
 }
 
 #evedal {
     margin-top: 7rem;
-   
+    height: 40vh;
     background-size: 50%;
 }
 
 #water {
     margin-top: 7rem;
-    
+    height: 40vh;
     background-size: 50%;
 }
 
 #letto {
     margin-top: 7rem;
-    
+    height: 40vh;
     background-size: 50%;
 }
 
@@ -723,21 +732,26 @@ section {
     margin-top: 7rem;
     margin-bottom: 5rem;
     background-size: 50%;
+    height: 40vh;
 }
 
 #abatjours {
     margin-top: 7rem;
-   
+    height: 40vh;
     background-size: 50%;
 }
 
 #macchina {
     margin-top: 7rem;
-    
+    height: 40vh;
     background-size: 50%;
 }
 
 #regali3 {
+    margin-top: 30rem;
+    margin-bottom: 15rem;
+}
+#regali2 {
     margin-top: 30rem;
     margin-bottom: 15rem;
 }
@@ -749,6 +763,7 @@ section {
 #tavolo {
     margin-top: 15rem;
     background-size: 50%;
+    height: 40vh;
 }
 
 .centraMob {
