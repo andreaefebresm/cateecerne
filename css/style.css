@@ -578,7 +578,6 @@ section {
     .rosalista {
         padding-left: 1.4rem;
     }
-    }
     .inizioMob {
         display: initial;
     }
@@ -688,93 +687,90 @@ section {
     .centraverticale {
         top: 40%;
     }
-
-
-
-#tazzine {
-    margin-top: 7rem;
-   height: 40vh;
-    background-size: 50%;
-}
-
-#godmorgon {
-    margin-top: 7rem;
-    background-size: 50%;
+    #tazzine {
+        margin-top: 7rem;
     height: 40vh;
-   
-}
+        background-size: 50%;
+    }
 
-#comodini {
-    margin-top: 7rem;
-    height: 40vh;
-    background-size: 50%;
-}
+    #godmorgon {
+        margin-top: 7rem;
+        background-size: 50%;
+        height: 40vh;
+    
+    }
 
-#evedal {
-    margin-top: 7rem;
-    height: 40vh;
-    background-size: 50%;
-}
+    #comodini {
+        margin-top: 7rem;
+        height: 40vh;
+        background-size: 50%;
+    }
 
-#water {
-    margin-top: 7rem;
-    height: 40vh;
-    background-size: 50%;
-}
+    #evedal {
+        margin-top: 7rem;
+        height: 40vh;
+        background-size: 50%;
+    }
 
-#letto {
-    margin-top: 7rem;
-    height: 40vh;
-    background-size: 50%;
-}
+    #water {
+        margin-top: 7rem;
+        height: 40vh;
+        background-size: 50%;
+    }
 
-#oliera {
-    margin-top: 7rem;
-    margin-bottom: 5rem;
-    background-size: 50%;
-    height: 40vh;
-}
+    #letto {
+        margin-top: 7rem;
+        height: 40vh;
+        background-size: 50%;
+    }
 
-#abatjours {
-    margin-top: 7rem;
-    height: 40vh;
-    background-size: 50%;
-}
+    #oliera {
+        margin-top: 7rem;
+        margin-bottom: 5rem;
+        background-size: 50%;
+        height: 40vh;
+    }
 
-#macchina {
-    margin-top: 7rem;
-    height: 40vh;
-    background-size: 50%;
-}
+    #abatjours {
+        margin-top: 7rem;
+        height: 40vh;
+        background-size: 50%;
+    }
 
-#regali3 {
-    margin-top: 30rem;
-    margin-bottom: 15rem;
-}
-#regali2 {
-    margin-top: 30rem;
-    margin-bottom: 15rem;
-}
+    #macchina {
+        margin-top: 7rem;
+        height: 40vh;
+        background-size: 50%;
+    }
 
-#porta {
-    background-size: 70%;
-}
+    #regali3 {
+        margin-top: 30rem;
+        margin-bottom: 15rem;
+    }
+    #regali2 {
+        margin-top: 30rem;
+        margin-bottom: 15rem;
+    }
 
-#tavolo {
-    margin-top: 15rem;
-    background-size: 50%;
-    height: 40vh;
-}
+    #porta {
+        background-size: 70%;
+    }
 
-.centraMob {
-    justify-content: center;
-}
+    #tavolo {
+        margin-top: 15rem;
+        background-size: 50%;
+        height: 40vh;
+    }
 
-.balena {
-    height: 40vh;
-}
+    .centraMob {
+        justify-content: center;
+    }
 
-.margineBalena {
-    margin-top: 30vh;
-}
+    .balena {
+        height: 40vh;
+    }
+
+    .margineBalena {
+        margin-top: 30vh;
+    }
 }
