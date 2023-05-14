@@ -559,6 +559,10 @@ section {
     margin-top: 12vh;
 }
 
+.centraMob {
+    justify-content: flex-end;
+}
+
 @media only screen and (max-width: 600px) {
 
     .inizioMob {
@@ -681,38 +685,56 @@ section {
 
 #tazzine {
     margin-top: 7rem;
+   
+    background-size: 50%;
 }
 
 #godmorgon {
     margin-top: 7rem;
+    background-size: 50%;
+   
 }
 
 #comodini {
     margin-top: 7rem;
+   
+    background-size: 50%;
 }
 
 #evedal {
     margin-top: 7rem;
+   
+    background-size: 50%;
 }
 
 #water {
     margin-top: 7rem;
+    
+    background-size: 50%;
 }
 
 #letto {
     margin-top: 7rem;
+    
+    background-size: 50%;
 }
 
 #oliera {
     margin-top: 7rem;
+    margin-bottom: 5rem;
+    background-size: 50%;
 }
 
 #abatjours {
     margin-top: 7rem;
+   
+    background-size: 50%;
 }
 
 #macchina {
     margin-top: 7rem;
+    
+    background-size: 50%;
 }
 
 #regali3 {
@@ -726,6 +748,12 @@ section {
 
 #tavolo {
     margin-top: 15rem;
+    
+    background-size: 50%;
+}
+
+.centraMob {
+    justify-content: center;
 }
 
 }
