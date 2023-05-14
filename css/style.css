@@ -347,6 +347,10 @@ button {
     
 }
 
+.altezzaReg {
+    height: 40vh;
+}
+
 #regali3 {
     margin-top: -20vh;
     margin-bottom: 5vh;
@@ -779,5 +783,9 @@ section {
     }   
     .des-div {
         font-family: 'beatriceextrabold' !important;
+    }
+
+    .altezzaReg {
+        height: 100vh;
     }
 }
