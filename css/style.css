@@ -125,7 +125,7 @@ h2 a:hover {
 }
 
 h3 {
-    font-family: 'Media Sans', sans-serif;
+    font-family: 'media_sansbold', sans-serif;
     font-weight: 700;
     color: white;
 }
@@ -625,7 +625,7 @@ section {
     }
     
     h3 {
-        font-family: 'Media Sans', sans-serif;
+        font-family: 'media_sansbold', sans-serif;
         font-weight: 700;
         color: white;
     }
