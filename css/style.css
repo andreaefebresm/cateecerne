@@ -119,7 +119,7 @@ h2 a {
 }
 
 h2 a:hover {
-    font-family: 'beatriceextrabold', serif; 
+    font-family: 'beatrice_displayXBdIt', serif; 
     color: var(--red);
     font-size: 1.5rem;
 }
@@ -468,7 +468,7 @@ section {
     margin-left: 6rem;
 }
 .des-div {
-    font-family: 'beatriceextrabold', serif;
+    font-family: 'beatriceextrabold', serif !important;
     font-size: 1.8rem;
 }
 #tavolo {
@@ -599,7 +599,6 @@ section {
     }
 
     html {
-        scroll-behavior: smooth;
         overflow-x: hidden !important;
     }
     h1 {
@@ -632,7 +631,7 @@ section {
     }
     
     h2 a:hover {
-        font-family: 'beatriceextrabold', serif; 
+        font-family: 'beatriceextrabold', serif !important; 
         color: var(--red);
         font-size: 1.3rem;
     }
@@ -775,4 +774,7 @@ section {
     #rosa4 {
         font-size: 0.8rem;
     }
+    #cerimonia, #ricevimento {
+        background-size: 50%;
+    }   
 }
