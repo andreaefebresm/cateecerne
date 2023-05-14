@@ -594,7 +594,7 @@ section {
         top:135%;
     }
 
-    html {
+   body {
         overflow-x: hidden !important;
     }
     h1 {
