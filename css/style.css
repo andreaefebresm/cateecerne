@@ -468,7 +468,7 @@ section {
     margin-left: 6rem;
 }
 .des-div {
-    font-family: 'beatriceextrabold';
+    font-family: 'beatriceextrabold', serif;
     font-size: 1.8rem;
 }
 #tavolo {
@@ -771,5 +771,8 @@ section {
 
     .margineBalena {
         margin-top: 30vh;
+    }
+    #rosa4 {
+        font-size: 0.8rem;
     }
 }
