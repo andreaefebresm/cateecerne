@@ -82,7 +82,9 @@ html {
 
 body {
     background-color: var(--yellow);
-    cursor:url('./assets/cursor.png');
+}
+body {
+    cursor: url('cursor.png'), auto;
 }
   
 h1 {
@@ -766,4 +768,7 @@ section {
     #cerimonia, #ricevimento {
         background-size: 50%;
     }   
+    .des-div {
+        font-family: 'beatriceextrabold' !important;
+    }
 }
