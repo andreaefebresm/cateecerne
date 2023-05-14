@@ -748,7 +748,6 @@ section {
 
 #tavolo {
     margin-top: 15rem;
-    
     background-size: 50%;
 }
 
@@ -756,4 +755,11 @@ section {
     justify-content: center;
 }
 
+.balena {
+    height: 40vh;
+}
+
+.margineBalena {
+    margin-top: 30vh;
+}
 }
